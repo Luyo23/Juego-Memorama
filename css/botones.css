@@ -1,0 +1,53 @@
+#uno, #score, #comienzo{
+    background-color: #786fa6; /* Green */
+    border: 3px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "arcade2";
+}
+#uno:hover,
+#comienzo:hover,
+#score:hover{
+    background: linear-gradient(0deg, #786fa6 0%, #574b90 100%); /* Green */
+    color: white;
+    border: 3px solid white;
+}
+
+#emerbt{
+    background-color: white; /* Green */
+    border: 3px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0;
+    padding: 0;
+    font-family:'arcade2';
+}
+#emerbt:hover{
+    background: linear-gradient(0deg, red 0%, darkred 100%); /* Green */
+    color: white;
+    border: 3px solid white;
+}
